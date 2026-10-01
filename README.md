@@ -44,7 +44,11 @@ Distributed under the MIT License. See [LICENSE](LICENSE).
 After creating a repository from this template:
 1. Replace "project-name" and the description above.
 2. Update the repository description and topics on GitHub.
-3. In .github/dependabot.yml, uncomment the ecosystems this project uses.
+3. Python package? Clone the repo and run, from its root:
+       cookiecutter gh:jhunufernandes/python-package-template -o .
+   It adds pyproject.toml, src/, tests/, CI workflows, Python ignores
+   and a Python-aware dependabot.yml on top of these files.
+   Other languages: uncomment the matching ecosystems in .github/dependabot.yml.
 4. Apply the standard repository settings (ruleset, merge options, security, labels).
 5. Delete this comment.
 -->
