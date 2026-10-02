@@ -1,41 +1,6 @@
-# Dependabot version updates.
-# Uncomment the ecosystems this project uses. Updates are grouped
-# into one weekly PR per ecosystem to keep noise low.
 version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
-    groups:
-      github-actions:
-        patterns: ["*"]
-
-  # - package-ecosystem: pip        # also works for pyproject.toml / requirements.txt
-  #   directory: /
-  #   schedule:
-  #     interval: weekly
-  #   groups:
-  #     python:
-  #       patterns: ["*"]
-
-  # - package-ecosystem: uv         # use instead of pip when the project has uv.lock
-  #   directory: /
-  #   schedule:
-  #     interval: weekly
-  #   groups:
-  #     python:
-  #       patterns: ["*"]
-
-  # - package-ecosystem: npm
-  #   directory: /
-  #   schedule:
-  #     interval: weekly
-  #   groups:
-  #     npm:
-  #       patterns: ["*"]
-
-  # - package-ecosystem: docker
-  #   directory: /
-  #   schedule:
-  #     interval: weekly

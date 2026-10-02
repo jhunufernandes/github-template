@@ -1,0 +1,8 @@
+name: release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  call-release:
+    uses: jhunufernandes/python-github-actions/.github/workflows/release.yml@main
