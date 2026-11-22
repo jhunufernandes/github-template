@@ -1,0 +1,15 @@
+name: issue
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  issue:
+    uses: jhunufernandes/github-actions/.github/workflows/issue.yml@main
+    with:
+      pr_base: main
